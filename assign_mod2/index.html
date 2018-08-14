@@ -11,8 +11,8 @@
 		h1 {
 			text-align: center;
 		}
-
-		div {
+		
+		section {
 			height: 150px;
 			text-align: center;
 			border: 1px solid black;
@@ -31,6 +31,8 @@
 		@media (min-width: 992px) {
 			.col-lg-1, .col-lg-2, .col-lg-3 {
 				float: left;
+				margin-right: 5px;
+				margin-top: 5px;
 			}
 			.col-lg-1 {
 				width: 33.33%;
@@ -46,6 +48,8 @@
 		@media (min-width: 768px) and (max-width: 991px) {
 			.col-md-1, .col-md-2, .col-md-3 {
 				float: left;
+				margin-right: 5px;
+				margin-top: 5px;
 			}
 			.col-md-1 {
 				width: 50%;
@@ -59,18 +63,18 @@
 <body>
 	<h1>Our Menu</h1>
 <div class="row">
-	<div class="col-lg-1 col-md-1">
+	<section class="col-lg-1 col-md-1">
 		<header>Chicken</header>
 		<p>Chicken dishes are great!</p>
-	</div>
-	<div class="col-lg-1 col-md-1">
+	</section>
+	<section class="col-lg-1 col-md-1">
 		<header>Beef</header>
 		<p>Beef dishes are great!</p>
-	</div>
-	<div class="col-lg-1 col-md-2">
+	</section>
+	<section class="col-lg-1 col-md-2">
 		<header>Sushi</header>
 		<p>Sushi is great!</p>
-	</div>
+	</section>
 </div>
 </body>
 </html>
