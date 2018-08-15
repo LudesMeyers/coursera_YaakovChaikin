@@ -12,27 +12,29 @@
 			text-align: center;
 		}
 		
-		section {
+		div {
+			border-color: 1px solid black;
 			height: 150px;
-			background-color: #A52A2A;
 			margin-right: auto;
 			margin-left: auto;
 			text-align: center;
 
 		}
+		 #Chicken {
+		 	background-color: #FFFF00;
+		 	border: 1px solid black;
+		 	width: 150px;
+		 	margin: 0px;
+		 	float: right;
+		 }
 
 		p {
-			border: 1px solid block;
+			border: 1px solid black;
 			height: 150px;
 			width: 90%;
 			margin-left: auto;
 			margin-right: auto;
-		}
-
-		header {
-			border: 1px solid black;
-			width: 100px;
-			float: right;
+			
 		}
 
 		.row {
@@ -129,18 +131,18 @@
 <body>
 	<h1>Our Menu</h1>
 <div class="row">
-	<section class="col-lg-4 col-md-6">
-		<header>Chicken</header>
+	<div class="col-lg-4 col-md-6">
+		<h3 id="Chicken">Chicken</h3>
 		<p>Chicken dishes are great!</p>
-	</section>
-	<section class="col-lg-4 col-md-6">
-		<header>Beef</header>
+	</div>
+	<div class="col-lg-4 col-md-6">
+		<h3>Beef</h3>
 		<p>Beef dishes are great!</p>
-	</section>
-	<section class="col-lg-4 col-md-12">
-		<header>Sushi</header>
+	</div>
+	<div class="col-lg-4 col-md-12">
+		<h3>Sushi</h3>
 		<p>Sushi is great!</p>
-	</section>
+	</div>
 </div>
 </body>
 </html>
