@@ -2,15 +2,19 @@
   			box-sizing: border-box;
 		}
 		h1 {
+      font: Helvetica;
+      font-size: 28px;
 			text-align: center;
 		}
 		
 		.section {
-			border: 1px solid green;
+      background-color: grey;
 			margin: 10px 10px;
 		}
 
 		h3 {
+      font: Helvetica;
+      font-size: 20px;
 			border: 1px solid black;
 			width: 150px;
       text-align: center;
@@ -30,6 +34,8 @@
       background-color: #00FF00;
     }
 		p {
+      font: Helvetica;
+      font-size: 16px;
       height: 150px;
       padding-left: 10px;
       padding-right: 10px;
